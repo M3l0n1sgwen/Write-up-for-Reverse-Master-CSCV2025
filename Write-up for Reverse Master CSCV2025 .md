@@ -269,7 +269,7 @@ apktool d -f reverse-master.apk -o reverse-master_src
 
 A new folder named **reverse-master_src** will appear in the same path you use Terminal. Check that out and find **libnative-lib\.so** in the lib folder
 ![image](https://hackmd.io/_uploads/B1tjbRERxl.png)
-Let open this file and find the **Java_com_ctf_challenge_MainActivity_checkSecondHalf** function:
+Let open this file in **ghidra** and find the **Java_com_ctf_challenge_MainActivity_checkSecondHalf** function:
 ```
 bool Java_com_ctf_challenge_MainActivity_checkSecondHalf
                (long *param_1,undefined8 param_2,undefined8 param_3)
