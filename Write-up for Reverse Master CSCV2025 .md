@@ -9,8 +9,10 @@ The question:
 
 When we install the file we will have an apk file like this:
 ![image](https://hackmd.io/_uploads/Bk60raNReg.png)
+
 Use **jadx-gui** to decompile this file,then open **Source code/ctf.challenge** and you will see **Main Activity** like this:
 ![image](https://hackmd.io/_uploads/BJ7-D6NRlx.png)
+
 Open that and you will see the code below:
 ```
 package com.ctf.challenge;
@@ -344,6 +346,7 @@ bool Java_com_ctf_challenge_MainActivity_checkSecondHalf
 ```
 Let chatGPT analyze this:
 ![image](https://hackmd.io/_uploads/S1gEWJHCxe.png)
+
 So let go to **FUN_0011ad68** to see what inside this:
 ```
 
